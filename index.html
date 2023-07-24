@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Julian Date</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css"
+    />
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="datepicker"></div>
+      <div class="hero">
+        <input
+          type="text"
+          id="inputDate"
+          placeholder="Enter Date or Julian Day"
+        />
+        <button
+          id="gregoriandate"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Copy to clipboard"
+          type="button"
+          class="btn btn-primary btn-lg"
+        >
+          MM/DD/YYYY
+        </button>
+        <button
+          id="juliandate"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Copy to clipboard"
+          type="button"
+          class="btn btn-primary btn-lg"
+        ></button>
+      </div>
+    </div>
+  </body>
+</html>

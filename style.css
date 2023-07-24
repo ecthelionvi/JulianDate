@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 24px;
+    width: 420px;
+    border-radius: 1.0rem;
+    margin-top: 24px;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Changed from left to center */
+    background-color: white;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+#juliandate {
+    margin-top: 24px;
+}
+
+#gregoriandate {
+    margin-top: 24px;
+}
+
+#inputDate {
+    width: 190px;
+    margin-top: 24px;
+}
+
+#datepicker {
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.2));
+}
+
+#inputDate {
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.2));
+}
+
+#inputDate::placeholder {
+    text-align: left;
+}
+
+#gregoriandate {
+    font-size: 16pt;
+    font-weight: bolder;
+    width: 158px;
+    height: 60px;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.2));
+}
+
+#juliandate {
+    font-size: 16pt;
+    font-weight: bolder;
+    width: 158px;
+    height: 60px;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.2)); 
+}

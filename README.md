@@ -5,7 +5,7 @@
 Julian is an interactive web application that facilitates conversions between Gregorian dates and their corresponding Julian day of the year. Users can input either a Gregorian date or a Julian day, and the application will provide the equivalent counterpart. Julian also offers the ability to copy the displayed date or Julian day to the clipboard.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ecthelionvi/Images/main/JulianExample.png" alt="JulianExample">
+  <img src="https://raw.githubusercontent.com/ecthelionvi/Images/main/JulianExample.png" alt="JulianExample" width="50%" height="50%">
 </p>
 
 ## 🔧 Usage
